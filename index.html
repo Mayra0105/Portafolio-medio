@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Mayra</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+</head>
+<body>
+    <!--Inicio-->
+    <div id="inicio" class="wrapper">
+        <header>
+         <nav class="navbar">
+            <div class="brand">
+            <h2>M<span>O</span></h2>
+            </div>
+            <ul class="menu">
+                <li><a class="active" href="#inicio">Inicio</a></li>
+                <li><a href="#SobreMi">Sobre mí</a></li>
+                <li><a href="#portfolio">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+         </nav>
+        </header>
+    <main id="Inicio" class="main">
+        <div class="info-content">
+            <h1>Soy <span class="highlight"> Mayra Ortega</span></h1>
+            <p id="typing-effect">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, sequi velit in adipisci perspiciatis ratione alias nam! Accusantium, officia ab iste quia, blanditiis ex mollitia omnis inventore aspernatur soluta unde!</p>    
+            <a href="CV.pdf">
+                <button class="descargar-cv">Descargar CV
+                </button>
+            </a>
+            </div>
+    </main>  
+    </div> 
+
+<!--Sobre mí -->
+    <div id="SobreMi" class="sobreMi">
+        <img src="mayra_toby.png" alt="chicaConSuPerro">
+    <div class="masInfo">
+    <h2>Sobre mí</h2>
+    <div class="divider"></div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quaerat ipsa vitae voluptatibus odit ipsam itaque suscipit facere aperiam voluptate, sed quidem culpa deleniti atque fuga rerum tenetur voluptas quos!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti blanditiis, numquam ullam earum veritatis tempora quo itaque sapiente dolor, incidunt architecto temporibus quia voluptas est consequuntur deserunt atque ipsa vero.
+    </p>
+    <button class="descargar-cv">Leer más</button>
+    </div>
+    </div>
+ <!--Sobre mí 2 -->   
+    <div class="sobreMi2">
+      <h3 class="sobreMi2-encabezado">Progreso</h3>
+      <div class="envoltura-barra-progreso">
+
+        <div class="barra-progreso">
+          <div class="porcentaje-progreso" data-porcentaje="95%"></div>
+          <div class="texto-progreso">HTML 95%</div>
+        </div>
+
+        <div class="barra-progreso">
+          <div class="porcentaje-progreso" data-porcentaje="90%"></div>
+          <div class="texto-progreso">CSS 90%</div>
+        </div>
+
+        <div class="barra-progreso">
+          <div class="porcentaje-progreso" data-porcentaje="85%"></div>
+          <div class="texto-progreso">JavaScript 85%</div>
+        </div>
+
+        <div class="barra-progreso">
+          <div class="porcentaje-progreso" data-porcentaje="85%"></div>
+          <div class="texto-progreso">PHP 85%</div>
+        </div> 
+     
+      </div>
+    </div>
+
+<!--Portafolio -->
+  <!--Portafolio -->
+  <div id="portfolio" class="portfolio">
+    <div class="portfolio-heading">
+      <h2>Mi Portafolio</h2>
+      <div class="divider"></div>
+    </div>
+    
+    <div class="container">
+      <div class="card">
+      <div class="card__img">
+    </div>
+    <div class="card__title">
+      <h2>Juego de adivinanza</h2>
+    </div>
+      <div class="card__proyect-links">
+        <a href="https://github.com/Mayra0105/Juego-adivinanza" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="button-content">
+        <button class="proyect-details-button descargar-cv">
+          <a href="#">Ver proyecto</a>
+        </button>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card__img">
+      </div>
+      <div class="card__title">
+        <h2>Calculadora básica</h2>
+      </div>
+      <div class="card__proyect-links">
+        <a href="https://github.com/Mayra0105/Calculadora" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        
+      </div>
+      <div class="button-content">
+        <button class="proyect-details-button descargar-cv">
+          <a href="#">Ver proyecto</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__img">
+      </div>
+      
+      <div class="card__title">
+        <h2>Reloj digital futurista</h2>
+      </div>
+      <div class="card__proyect-links">
+        <a href="https://github.com/Mayra0105/Reloj" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="button-content">
+        <button class="proyect-details-button descargar-cv">
+          <a href="#">Ver proyecto</a>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+    
+<!--Contacto -->
+<div id="contacto" class="contact-section">
+    
+  <div class="contact-heading">
+      <h2>Contacto</h2>
+      <div class="divider"></div>
+    </div>
+    
+    <div class="container-contact ">
+      <img src="mayra.png" alt="">
+    
+      <div class="contact-form">
+        <h4>Contáctame</h4>
+        <form class="form-group">
+          <input type="text" placeholder="Nombre" class="input">
+          <input type="email" placeholder="Correo electrónico" class="input">
+          <textarea name="message" placeholder="">Deja aquí tu mensaje</textarea>
+          <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    
+</div>
+
+
+    <footer class="footer"> 
+        <div class="footer-content">
+          <h2>Mayra Ortega</h2>
+          <h5>Web developer</h5>
+        </div>
+        <div class="sotial-networks">
+        <a href="https://es.linkedin.com/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>  
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://x.com/?lang=es" target="_blank">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+        </div>
+
+        <div class="footer__copy">
+          <p id="year"class="footer-text">
+            &copy;<span id="year"></span></p>
+          <p>Copyright &copy Todos los derechos reservados. By
+            <a href="https://github.com/Mayra0105" target="_blank" class="footer__copy-link">Mayra</a>
+          </p>
+        </div>
+
+      </footer>
+      <script src="app.js"></script>
+</body>
+</html>
