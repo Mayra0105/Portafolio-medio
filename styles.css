@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans',Arial, Helvetica, sans-serif;
 }
 
 /* Wrapper */
@@ -489,4 +489,5 @@ span {
   .portfolio .card {
       max-width: 200px;
   }
+
 }
