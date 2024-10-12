@@ -28,7 +28,6 @@ body {
   align-items: center;
   padding: 2em;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   position: fixed;
   top: 0;
@@ -55,6 +54,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   padding: 10px 15px;
+  display:block;
 }
 
 .menu a.active {
@@ -124,7 +124,6 @@ span {
   background-color: #738478;
   padding: 3em 1em;
   text-align: center;
-  margin-top: 1em;
   position: relative;
   z-index: 1;
 }
@@ -156,7 +155,7 @@ span {
 .sobreMi2 {
   width:100%;
   height: 100%;
-  padding: 1rem 0 10rem 0;
+  padding: 1rem 0 1rem 0;
   background-color: #738478;
   display: flex;
   flex-direction: column;
@@ -391,6 +390,7 @@ span {
       flex-direction: column;
       align-items: center;
       background-color: rgba(0, 0, 0, 0.695);
+      position: relative;
   }
 
   .menu {
